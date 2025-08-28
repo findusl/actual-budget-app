@@ -1,0 +1,42 @@
+*.iml
+.kotlin
+.gradle
+**/build/
+xcuserdata
+!src/**/build/
+local.properties
+.idea
+.DS_Store
+captures
+.externalNativeBuild
+.cxx
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# Manual edits because annoying:
+/.idea/jpa-buddy.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/initiative-tracker-backend/.idea/httpRequests
+/.idea/deploymentTargetDropDown.xml
+/.idea/androidTestResultsUserPreferences.xml
+/.idea/migrations.xml
+/.idea/AndroidProjectSystem.xml
+/.idea/misc.xml
+/.idea/caches/deviceStreaming.xml
+/.idea/runConfigurations.xml
+/app/remote/release/app-remote-release.aab
+
+# Android apk build folders
+/frontendandroid/release/
+/frontendandroid/debug/
+
+# Some Kotlin metadata
+.kotlin/
+/.idea/deploymentTargetSelector.xml
+/.idea/xcode.xml
+/.idea/kotlinc.xml
+
